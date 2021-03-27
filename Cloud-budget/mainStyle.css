@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #ED4C5C;
+}
+
+.main{
+    background: linear-gradient(82deg, rgba(213,32,71, 0.70) 0%, rgba(238,61,27,0.7) 99%), url(./assets/background.png); /* W3C */
+    background-size: cover;
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    font-family: latoThin;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    align-items: center;
+}
+
+.logo{
+    font-family: lato;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 10%;
+    font-weight: bold;
+    padding-left: 12.5%;
+    padding-right: 12.5%;    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    font-family: latoThin;
+}
+
+.header-stuff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 16%;
+    padding-left: 10%;
+}
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+    font-size: smaller;
+}
+
+.login{
+    padding: 1vh;
+
+    width: 35%;
+    border: solid white 1px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center; 
+    justify-content: space-evenly; 
+    text-align: center;
+    height: 50vh;
+    color: white;
+    font-family: lato;
+    width: 40%;
+
+    padding-top: 10vh;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.center h1{
+    font-size: 10ch;
+}
+
+.center p{
+    width: 80%;
+    font-size: 3ch;
+    line-height: 150%;
+    letter-spacing: 2px;
+}
+
+.signup{
+    background: white;
+    color: #ED4C5C;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5px;
+}

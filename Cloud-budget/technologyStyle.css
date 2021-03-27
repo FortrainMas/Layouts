@@ -1,0 +1,43 @@
+.technology{
+    background: #fff;
+    height: 57vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: lato;
+}
+
+.technology h2{
+    margin-top: -3%;
+}
+
+.technologies{
+    margin-top: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.technology-el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.technology-el h1{
+    font-size: 5em;
+    color: rgba(16, 16, 16, 0.08);
+}
+
+.technology-data{
+    margin-top: -13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 17vh;
+}

@@ -1,0 +1,48 @@
+.about{
+    background: #fff;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-info{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: lato;
+    height: 40vh;
+    width: 50%;
+}
+
+.about-info h2{
+    width: 70%;
+    font-size: 1.8em;
+}
+
+.about-info a{
+    text-decoration: none;
+    color: #ED4C5C;
+}
+
+.about-play{
+    aspect-ratio: 445/311;
+    background-image: url(./assets/Video_bg.png);
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.about-play img:first-child{
+    margin-left: -2vw;
+    width: 4vw;
+}
